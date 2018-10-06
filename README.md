@@ -1,5 +1,4 @@
 1.segmesh
-
 to calculate distance between two neighbour meshes.
 ===========================================================================
 2.preprocessing (you need to run the python files to build the data for SFCN)
@@ -7,23 +6,18 @@ to calculate distance between two neighbour meshes.
 need: python 2.7, numpy, scipy, sklearn
 
 a.edit the all_cimbine.py:
-	old_feature_dir : 3d shapes' feature files
-	dir_all: 3d shapes' other files(dist, area, adj, seg)
+old_feature_dir : 3d shapes' feature files
+dir_all: 3d shapes' other files(dist, area, adj, seg)
 b.set the output dir
-	dir_output
+dir_output
 c.run 
 ===========================================================================
 3.build caffe see caffe_read.txt
-
 ===========================================================================
-3.caffe-plier
-
+4.caffe-plier
 a.run gen_lmdb.py to generate the lmdb dataset for caffe
 b.run eval-solve.py
 ===========================================================================
-4.SFCN's multilabel graph cut
-
+5.SFCN's multilabel graph cut
 if you want to run graph cut,
-you need multilabel graph cut code(you can find it here, https://github.com/nsubtil/gco-v3.0).
-
-===========================================================================
+you need multilabel graph cut code(you can find it in gco)
