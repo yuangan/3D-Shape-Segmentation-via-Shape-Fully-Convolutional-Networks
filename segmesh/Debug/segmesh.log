@@ -1,0 +1,211 @@
+﻿Build started 2016/12/23 11:16:40.
+     1>Project "C:\Users\Yuan Gan\Desktop\segmesh\segmesh\segmesh\segmesh.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\FeatureExporter.cpp
+         FeatureExporter.cpp
+     1>c:\users\yuan gan\desktop\segmesh\segmesh\meshsegmentationfeatures.h(554): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\yuan gan\desktop\segmesh\segmesh\meshsegmentationfeatures.h(561): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\yuan gan\desktop\segmesh\segmesh\meshsegmentationfeatures.h(561): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\yuan gan\desktop\segmesh\segmesh\meshsegmentationfeatures.h(564): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\yuan gan\desktop\segmesh\segmesh\wapca.h(57): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\yuan gan\desktop\segmesh\segmesh\wapca.h(82): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\yuan gan\desktop\segmesh\segmesh\wapca.h(101): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\yuan gan\desktop\segmesh\segmesh\wapca.h(102): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\yuan gan\desktop\segmesh\segmesh\wapca.h(103): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\yuan gan\desktop\segmesh\segmesh\wapca.h(109): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\yuan gan\desktop\segmesh\segmesh\wapca.h(143): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\yuan gan\desktop\segmesh\segmesh\featureexporter.cpp(101): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\yuan gan\desktop\segmesh\segmesh\featureexporter.cpp(108): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\yuan gan\desktop\segmesh\segmesh\featureexporter.cpp(119): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\yuan gan\desktop\segmesh\segmesh\featureexporter.cpp(123): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\yuan gan\desktop\segmesh\segmesh\featureexporter.cpp(146): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\yuan gan\desktop\segmesh\segmesh\featureexporter.cpp(163): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\yuan gan\desktop\segmesh\segmesh\featureexporter.cpp(178): warning C4305: '=' : truncation from 'double' to 'float'
+     1>c:\users\yuan gan\desktop\segmesh\segmesh\featureexporter.cpp(181): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\yuan gan\desktop\segmesh\segmesh\featureexporter.cpp(198): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\yuan gan\desktop\segmesh\segmesh\featureexporter.cpp(278): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\yuan gan\desktop\segmesh\segmesh\featureexporter.cpp(312): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\yuan gan\desktop\segmesh\segmesh\featureexporter.cpp(335): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\yuan gan\desktop\segmesh\segmesh\featureexporter.cpp(392): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\yuan gan\desktop\segmesh\segmesh\featureexporter.cpp(393): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\yuan gan\desktop\segmesh\segmesh\featureexporter.cpp(394): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\yuan gan\desktop\segmesh\segmesh\featureexporter.cpp(398): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\yuan gan\desktop\segmesh\segmesh\featureexporter.cpp(399): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\yuan gan\desktop\segmesh\segmesh\featureexporter.cpp(400): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\yuan gan\desktop\segmesh\segmesh\featureexporter.cpp(401): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\yuan gan\desktop\segmesh\segmesh\featureexporter.cpp(402): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\yuan gan\desktop\segmesh\segmesh\featureexporter.cpp(419): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\yuan gan\desktop\segmesh\segmesh\featureexporter.cpp(470): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\yuan gan\desktop\segmesh\segmesh\featureexporter.cpp(478): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\yuan gan\desktop\segmesh\segmesh\featureexporter.cpp(491): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\yuan gan\desktop\segmesh\segmesh\featureexporter.cpp(515): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\yuan gan\desktop\segmesh\segmesh\featureexporter.cpp(516): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\yuan gan\desktop\segmesh\segmesh\featureexporter.cpp(517): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\yuan gan\desktop\segmesh\segmesh\featureexporter.cpp(518): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\yuan gan\desktop\segmesh\segmesh\featureexporter.cpp(519): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\yuan gan\desktop\segmesh\segmesh\featureexporter.cpp(520): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\yuan gan\desktop\segmesh\segmesh\featureexporter.cpp(522): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\yuan gan\desktop\segmesh\segmesh\featureexporter.cpp(523): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\yuan gan\desktop\segmesh\segmesh\featureexporter.cpp(524): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\yuan gan\desktop\segmesh\segmesh\featureexporter.cpp(537): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\yuan gan\desktop\segmesh\segmesh\featureexporter.cpp(632): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\yuan gan\desktop\segmesh\segmesh\featureexporter.cpp(635): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\yuan gan\desktop\segmesh\segmesh\featureexporter.cpp(678): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\yuan gan\desktop\segmesh\segmesh\featureexporter.cpp(710): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\yuan gan\desktop\segmesh\segmesh\featureexporter.cpp(718): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\yuan gan\desktop\segmesh\segmesh\featureexporter.cpp(721): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\yuan gan\desktop\segmesh\segmesh\featureexporter.cpp(729): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\yuan gan\desktop\segmesh\segmesh\featureexporter.cpp(768): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\yuan gan\desktop\segmesh\segmesh\featureexporter.cpp(772): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\yuan gan\desktop\segmesh\segmesh\featureexporter.cpp(828): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\yuan gan\desktop\segmesh\segmesh\featureexporter.cpp(831): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\yuan gan\desktop\segmesh\segmesh\featureexporter.cpp(877): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\yuan gan\desktop\segmesh\segmesh\featureexporter.cpp(926): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\yuan gan\desktop\segmesh\segmesh\featureexporter.cpp(930): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\yuan gan\desktop\segmesh\segmesh\featureexporter.cpp(934): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\yuan gan\desktop\segmesh\segmesh\featureexporter.cpp(954): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\yuan gan\desktop\segmesh\segmesh\featureexporter.cpp(958): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\yuan gan\desktop\segmesh\segmesh\featureexporter.cpp(962): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\yuan gan\desktop\segmesh\segmesh\featureexporter.cpp(1021): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\yuan gan\desktop\segmesh\segmesh\featureexporter.cpp(1023): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\yuan gan\desktop\segmesh\segmesh\featureexporter.cpp(1034): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\yuan gan\desktop\segmesh\segmesh\featureexporter.cpp(1038): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\yuan gan\desktop\segmesh\segmesh\featureexporter.cpp(1069): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\yuan gan\desktop\segmesh\segmesh\featureexporter.cpp(1157): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\yuan gan\desktop\segmesh\segmesh\featureexporter.cpp(1177): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\yuan gan\desktop\segmesh\segmesh\featureexporter.cpp(1253): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\yuan gan\desktop\segmesh\segmesh\featureexporter.cpp(1256): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\yuan gan\desktop\segmesh\segmesh\featureexporter.cpp(1294): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\yuan gan\desktop\segmesh\segmesh\featureexporter.cpp(1405): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\yuan gan\desktop\segmesh\segmesh\featureexporter.cpp(1429): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\yuan gan\desktop\segmesh\segmesh\featureexporter.cpp(1449): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\yuan gan\desktop\segmesh\segmesh\featureexporter.cpp(1450): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\yuan gan\desktop\segmesh\segmesh\featureexporter.cpp(1657): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\yuan gan\desktop\segmesh\segmesh\featureexporter.cpp(1663): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\yuan gan\desktop\segmesh\segmesh\featureexporter.cpp(1703): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\yuan gan\desktop\segmesh\segmesh\featureexporter.cpp(1724): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\yuan gan\desktop\segmesh\segmesh\featureexporter.cpp(1725): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\yuan gan\desktop\segmesh\segmesh\featureexporter.cpp(1733): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\yuan gan\desktop\segmesh\segmesh\featureexporter.cpp(1734): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\yuan gan\desktop\segmesh\segmesh\featureexporter.cpp(1741): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\yuan gan\desktop\segmesh\segmesh\featureexporter.cpp(1819): warning C4101: 'str' : unreferenced local variable
+     1>c:\users\yuan gan\desktop\segmesh\segmesh\meshsegmentationfeatures.h(351): warning C4018: '<' : signed/unsigned mismatch
+                 c:\users\yuan gan\desktop\segmesh\segmesh\wapca.h(128) : see reference to function template instantiation 'T weightedmedian<float>(std::vector<float,std::allocator<_Ty>> &,std::vector<_Ty,std::allocator<_Ty>> &)' being compiled
+                 with
+                 [
+                     T=float
+         ,            _Ty=float
+                 ]
+     1>c:\users\yuan gan\desktop\segmesh\segmesh\meshsegmentationfeatures.h(354): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\yuan gan\desktop\segmesh\segmesh\meshsegmentationfeatures.h(476): warning C4018: '<' : signed/unsigned mismatch
+                 c:\users\yuan gan\desktop\segmesh\segmesh\wapca.h(135) : see reference to function template instantiation 'unsigned int *sortArrayIndices<float>(T *,int)' being compiled
+                 with
+                 [
+                     T=float
+                 ]
+     1>c:\users\yuan gan\desktop\segmesh\segmesh\meshsegmentationfeatures.h(482): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\yuan gan\desktop\segmesh\segmesh\meshsegmentationfeatures.h(245): warning C4018: '<' : signed/unsigned mismatch
+                 c:\users\yuan gan\desktop\segmesh\segmesh\featureexporter.cpp(412) : see reference to function template instantiation 'std::vector<float,std::allocator<_Ty>> removeOutliers<float>(std::vector<_Ty,std::allocator<_Ty>> &,float)' being compiled
+                 with
+                 [
+                     _Ty=float
+                 ]
+     1>c:\users\yuan gan\desktop\segmesh\segmesh\meshsegmentationfeatures.h(251): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\yuan gan\desktop\segmesh\segmesh\meshsegmentationfeatures.h(226): warning C4018: '<' : signed/unsigned mismatch
+                 c:\users\yuan gan\desktop\segmesh\segmesh\featureexporter.cpp(415) : see reference to function template instantiation 'std::vector<float,std::allocator<_Ty>> removePositiveOutliers<float>(std::vector<_Ty,std::allocator<_Ty>> &,float)' being compiled
+                 with
+                 [
+                     _Ty=float
+                 ]
+     1>c:\users\yuan gan\desktop\segmesh\segmesh\meshsegmentationfeatures.h(231): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\yuan gan\desktop\segmesh\segmesh\meshsegmentationfeatures.h(214): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+                 c:\users\yuan gan\desktop\segmesh\segmesh\featureexporter.cpp(870) : see reference to function template instantiation 'T cosd<float>(T)' being compiled
+                 with
+                 [
+                     T=float
+                 ]
+     1>c:\users\yuan gan\desktop\segmesh\segmesh\meshsegmentationfeatures.h(219): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+                 c:\users\yuan gan\desktop\segmesh\segmesh\featureexporter.cpp(870) : see reference to function template instantiation 'T sind<float>(T)' being compiled
+                 with
+                 [
+                     T=float
+                 ]
+     1>c:\users\yuan gan\desktop\segmesh\segmesh\meshsegmentationfeatures.h(303): warning C4018: '<' : signed/unsigned mismatch
+                 c:\users\yuan gan\desktop\segmesh\segmesh\featureexporter.cpp(877) : see reference to function template instantiation 'T minimum<float>(std::vector<float,std::allocator<_Ty>> &)' being compiled
+                 with
+                 [
+                     T=float
+         ,            _Ty=float
+                 ]
+     1>c:\users\yuan gan\desktop\segmesh\segmesh\meshsegmentationfeatures.h(315): warning C4018: '<' : signed/unsigned mismatch
+                 c:\users\yuan gan\desktop\segmesh\segmesh\featureexporter.cpp(879) : see reference to function template instantiation 'T mean<float>(std::vector<float,std::allocator<_Ty>> &)' being compiled
+                 with
+                 [
+                     T=float
+         ,            _Ty=float
+                 ]
+     1>c:\users\yuan gan\desktop\segmesh\segmesh\meshsegmentationfeatures.h(372): warning C4018: '<' : signed/unsigned mismatch
+                 c:\users\yuan gan\desktop\segmesh\segmesh\featureexporter.cpp(880) : see reference to function template instantiation 'T mean2<float>(std::vector<float,std::allocator<_Ty>> &)' being compiled
+                 with
+                 [
+                     T=float
+         ,            _Ty=float
+                 ]
+     1>c:\users\yuan gan\desktop\segmesh\segmesh\meshsegmentationfeatures.h(382): warning C4018: '<' : signed/unsigned mismatch
+                 c:\users\yuan gan\desktop\segmesh\segmesh\featureexporter.cpp(881) : see reference to function template instantiation 'T mean4<float>(std::vector<float,std::allocator<_Ty>> &)' being compiled
+                 with
+                 [
+                     T=float
+         ,            _Ty=float
+                 ]
+     1>c:\users\yuan gan\desktop\segmesh\segmesh\meshsegmentationfeatures.h(392): warning C4018: '<' : signed/unsigned mismatch
+                 c:\users\yuan gan\desktop\segmesh\segmesh\featureexporter.cpp(882) : see reference to function template instantiation 'T meansqrt<float>(std::vector<float,std::allocator<_Ty>> &)' being compiled
+                 with
+                 [
+                     T=float
+         ,            _Ty=float
+                 ]
+     1>c:\users\yuan gan\desktop\segmesh\segmesh\meshsegmentationfeatures.h(402): warning C4018: '<' : signed/unsigned mismatch
+                 c:\users\yuan gan\desktop\segmesh\segmesh\featureexporter.cpp(883) : see reference to function template instantiation 'T meansqrtsqrt<float>(std::vector<float,std::allocator<_Ty>> &)' being compiled
+                 with
+                 [
+                     T=float
+         ,            _Ty=float
+                 ]
+     1>c:\users\yuan gan\desktop\segmesh\segmesh\meshsegmentationfeatures.h(292): warning C4018: '<' : signed/unsigned mismatch
+                 c:\users\yuan gan\desktop\segmesh\segmesh\featureexporter.cpp(925) : see reference to function template instantiation 'T maximum<float>(std::vector<float,std::allocator<_Ty>> &)' being compiled
+                 with
+                 [
+                     T=float
+         ,            _Ty=float
+                 ]
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Yuan Gan\Desktop\segmesh\segmesh\Debug\segmesh.exe" /INCREMENTAL /NOLOGO BLAS.lib BLAS_nowrap.lib BLASd.lib BLASd_nowrap.lib cblaswrap.lib cblaswrapd.lib clapack.lib clapack_nowrap.lib clapackd.lib clapackd_nowrap.lib f2c.lib f77blaswrap.lib f77blaswrapd.lib libf2cd.lib tmglib.lib tmglib_nowrap.lib tmglibd.lib tmglibd_nowrap.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Yuan Gan\Desktop\segmesh\segmesh\Debug\segmesh.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Yuan Gan\Desktop\segmesh\segmesh\Debug\segmesh.lib" /MACHINE:X86 Debug\FeatureExporter.obj
+         Debug\diffuse.obj
+         Debug\DijkstraForGeodesics.obj
+         Debug\edgeflip.obj
+         Debug\faceflip.obj
+         Debug\filter.obj
+         Debug\ICP.obj
+         Debug\JointBoost.obj
+         Debug\JointBoost2.obj
+         Debug\KDtree.obj
+         Debug\lmsmooth.obj
+         Debug\remove.obj
+         Debug\reorder_verts.obj
+         Debug\subdiv.obj
+         Debug\TriMesh_bounding.obj
+         Debug\TriMesh_connectivity.obj
+         Debug\TriMesh_curvature.obj
+         Debug\TriMesh_grid.obj
+         Debug\TriMesh_io.obj
+         Debug\TriMesh_normals.obj
+         Debug\TriMesh_pointareas.obj
+         Debug\TriMesh_stats.obj
+         Debug\TriMesh_tstrips.obj
+         segmesh.vcxproj -> C:\Users\Yuan Gan\Desktop\segmesh\segmesh\Debug\segmesh.exe
+     1>Done Building Project "C:\Users\Yuan Gan\Desktop\segmesh\segmesh\segmesh\segmesh.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.84

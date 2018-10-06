@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{A0ECC93F-5F3C-4DF2-9E22-A2E009B4FAC4}</ProjectGuid>
+    <RootNamespace>segmesh</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LibraryPath>C:\clapack;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <BufferSecurityCheck>true</BufferSecurityCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>BLAS.lib;BLAS_nowrap.lib;BLASd.lib;BLASd_nowrap.lib;cblaswrap.lib;cblaswrapd.lib;clapack.lib;clapack_nowrap.lib;clapackd.lib;clapackd_nowrap.lib;f2c.lib;f77blaswrap.lib;f77blaswrapd.lib;libf2cd.lib;tmglib.lib;tmglib_nowrap.lib;tmglibd.lib;tmglibd_nowrap.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\FeatureExporter.cpp" />
+    <ClCompile Include="diffuse.cpp" />
+    <ClCompile Include="DijkstraForGeodesics.cpp" />
+    <ClCompile Include="edgeflip.cpp" />
+    <ClCompile Include="faceflip.cpp" />
+    <ClCompile Include="filter.cpp" />
+    <ClCompile Include="ICP.cpp" />
+    <ClCompile Include="JointBoost.cpp" />
+    <ClCompile Include="JointBoost2.cpp" />
+    <ClCompile Include="KDtree.cpp" />
+    <ClCompile Include="lmsmooth.cpp" />
+    <ClCompile Include="remove.cpp" />
+    <ClCompile Include="reorder_verts.cpp" />
+    <ClCompile Include="subdiv.cpp" />
+    <ClCompile Include="TriMesh_bounding.cpp" />
+    <ClCompile Include="TriMesh_connectivity.cpp" />
+    <ClCompile Include="TriMesh_curvature.cpp" />
+    <ClCompile Include="TriMesh_grid.cpp" />
+    <ClCompile Include="TriMesh_io.cpp" />
+    <ClCompile Include="TriMesh_normals.cpp" />
+    <ClCompile Include="TriMesh_pointareas.cpp" />
+    <ClCompile Include="TriMesh_stats.cpp" />
+    <ClCompile Include="TriMesh_tstrips.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Trimesh2\TriMesh.h" />
+    <ClInclude Include="..\Trimesh2\TriMesh_algo.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

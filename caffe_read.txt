@@ -1,0 +1,23 @@
+======================================================================================
+
+generate_layer.cpp
+======================================
+it means generating layer/ index layer in paper.
+And it based on caffe, you must have build caffe and add this layer.
+if you can make it, you can use generate layer as ./example/graphcut_example/ in caffe
+
+accuracy layer
+======================================
+you'd better use this accuracy layer to calculate right accuracy, which is based on 
+the area of every triangle.
+
+python
+======================================
+you can use python in ./caffe-master201610/python.
+
+
+
+======================================================================================
+if you have any question, please contact me. my email is: 131220077@smail.nju.edu.cn
+
+
