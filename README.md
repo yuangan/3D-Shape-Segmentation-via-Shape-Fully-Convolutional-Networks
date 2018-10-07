@@ -7,18 +7,23 @@ to calculate distance between two neighbour meshes.
 
 ## 2.preprocessing (you need to run the python files to build the data for SFCN)
 
-need: python 2.7, numpy, scipy, sklearn
+requirement: python 2.7, numpy, scipy, sklearn
 
 a.edit the all_cimbine.py:
+
 old_feature_dir : 3d shapes' feature files
+
 dir_all: 3d shapes' other files(dist, area, adj, seg)
 
 b.set the output dir
+
 dir_output
 
 c.run 
 
-## 3.build caffe see caffe_read.txt
+## 3.build caffe 
+
+see caffe_read.txt
 
 ## 4.caffe-plier
 
