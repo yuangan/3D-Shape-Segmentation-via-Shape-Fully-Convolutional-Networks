@@ -11,17 +11,18 @@ to calculate distance between two neighbour meshes.
 
 requirement: python 2.7, numpy, scipy, sklearn
 
-a.edit the all_cimbine.py:
+a.edit the all_cimbine.py
 
-old_feature_dir : 3d shapes' feature files
+--old_feature_dir : 3d shapes' feature files
 
-dir_all: 3d shapes' other files(dist, area, adj, seg)
+--dir_all: 3d shapes' other files(dist, area, adj, seg)
 
 b.set the output dir
 
-dir_output
+--dir_output
 
-c.run 
+c.run
+### Ps: More details are in ./preprocessing/README.md
 
 ## 3.build caffe 
 
@@ -32,6 +33,7 @@ see caffe_read.txt
 a.run gen_lmdb.py to generate the lmdb dataset for caffe
 
 b.run eval-solve.py
+### Ps: More details are in ./caffe-plier/README.md
 
 ## 5.SFCN's multilabel graph cut
 if you want to run graph cut,
