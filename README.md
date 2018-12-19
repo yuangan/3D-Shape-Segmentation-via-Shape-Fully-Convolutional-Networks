@@ -1,4 +1,5 @@
 # 3D Shape Segmentation via Shape Fully Convolutional Networks
+[paper](https://arxiv.org/abs/1702.08675)
 ------
 ## Data
 [plier_fea](https://drive.google.com/open?id=1BB7YNz56MdKstRcckJoBM6QY_OkrlJ0P)
