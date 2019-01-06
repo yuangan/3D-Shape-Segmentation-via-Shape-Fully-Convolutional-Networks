@@ -35,10 +35,7 @@ int readFile(string file_name, vector<int>* a){
 double calculateAC(string resultFile,int num_label,vector<int> label_[8], int NumOfAllMesh, ofstream &Result, string index, double *area, int *array_bool){
 	int* voteResult = new int[NumOfAllMesh];
 	double correct_ = 0;
-	//-----
-	//int correct_num_[7];
-	//for (int y = 0; y < 7; y++)correct_num_[y] = 0;
-	//data_labels
+
 	ofstream data_labels(resultFile + "voteResult\\" + index + "_labels.txt");
 	if (data_labels.fail()){
 		cout << "no voteResult file_dir, I will make one." << endl;
@@ -58,8 +55,6 @@ double calculateAC(string resultFile,int num_label,vector<int> label_[8], int Nu
 				}
 				tmp_vote[label_[j][i]]++;
 			}
-			//----
-			//if (label_[j][i] == label_[7][i]){ correct_num_[j]++; }
 		}
 		voteResult[i] = 0;
 		int tmp = 0;
@@ -75,12 +70,7 @@ double calculateAC(string resultFile,int num_label,vector<int> label_[8], int Nu
 		if (voteResult[i] == label_[7][i])correct_ += area[i];
 		delete[]tmp_vote;
 	}
-	//-----
-	//for (int z = 0; z < 7;z++){
-	//	Result << correct_num_[z] * 1.0 / NumOfAllMesh << endl;
-	//}
-	//Result << "---------------" << endl;
-	//output vote Result, if graphcut can not improve the result, it need this file
+
 	ofstream vote_labels(resultFile + "voteResult\\" + index + "_voteResult.txt");
 	for (int i = 0; i < NumOfAllMesh; i++){
 		vote_labels << voteResult[i] << endl;
@@ -189,7 +179,7 @@ double GeneralGraph_Optimize(string file_labels, string file_neighbour, string f
 	//printf("\n%d\n%d\n", count, neighbour[count - 1]);
 
 	//=============================Graph Cut==========================================
-	//set the distance between labels and different distance makes different results sometimes, it may range from 0.001 to 10
+	//Set the distance between labels and different distance makes different results.
 	float final_label_distance = 0.001;
 	float final_ac = vote_ac;
 	bool flag = true;
