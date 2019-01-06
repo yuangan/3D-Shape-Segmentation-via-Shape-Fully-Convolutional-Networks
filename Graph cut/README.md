@@ -5,14 +5,20 @@ source.cpp is the c++ example code of Graph Cut.
 3. if you want to run the code you should organize it like:
 
 input file:
+
 in test file, 0-6 present 7 features(results of network), gt is groundtruth, prem is the needed files about neighbour triangle meshes.
 
 config.txt: num of label
+
 index.txt: one line present a kind of feature combination,
 	   as 0011001 present the combination of three features
 
 output file:
+
 result_127.txt: the average of feature combination in index.txt
+
 result_0011001.txt: the average result of test 1-5
+
 test/allResult.txt: the voteResult of all model in test
+
 test/gcResult.txt: the result after graph cut
