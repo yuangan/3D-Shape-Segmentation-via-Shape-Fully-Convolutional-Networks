@@ -1,7 +1,7 @@
 # 3D Shape Segmentation via Shape Fully Convolutional Networks
 [paper](https://arxiv.org/abs/1702.08675)
-
-##Enviroment
+------
+## Enviroment
 201610 version of caffe: [caffe201610](https://drive.google.com/open?id=1WfzLWRakN2luR-qM7SgPD_KDw93bY0qu)
 ------
 ## Data
